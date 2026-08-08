@@ -1,8 +1,8 @@
-<h>Student Management System</h> <br>
+<title>Student Management System</title>
 
 A console-based Student Management System built using Core Java and File Handling. The application allows users to add, view, search, update, and delete student records. All student data is stored in a text file instead of a database.<br>
 
-📌 Project Overview
+📌 <h1>Project Overview</h1>
 
 This project demonstrates how Java File Handling can be used to create a simple record management system.
 
@@ -21,25 +21,29 @@ The application provides a menu-driven interface where users can perform CRUD op
                      |
                      ↓
                 students.txt
-✨ Features
-Add new student
-View all students
-Search student by ID
-Update student information
-Delete student
-Store records in a text file
-Append new records without deleting existing data
-Menu-driven console interface
-Exception handling for file operations
-🛠️ Technologies Used
+✨ <h1> Features</h1> 
+➕ Add Student<br>
+📋 View All Students<br>
+🔍 Search Student by ID<br>
+✏️ Update Student<br>
+🗑️ Delete Student<br>
+💾 Store records in a text file<br>
+📂 File-based data storage<br>
+⚠️ Exception handling<br>
+🖥️ Menu-driven console interface<br>
+🔄 Complete CRUD operations<br>
+
+🛠️<h1>Technologies Used</h1>
 Java
-Core Java
-File Handling
-OOP
-Exception Handling
-Java I/O
+Core Java<br>
+File Handling<br>
+OOP<br>
+Exception Handling<br>
+Java I/O<br>
 Scanner
-📂 Project Structure
+
+
+📂<h1> Project Structure</h1>
 Student-Management-System/
 │
 ├── src/
@@ -50,36 +54,29 @@ Student-Management-System/
 ├── students.txt
 │
 └── README.md
-📄 File Description
-Main.java
 
-Contains the main method and menu-driven interface.
-
-It accepts input from the user and calls the appropriate methods from StudentManager.
-
-Student.java
 
 Represents a student object.
 
 It contains:
 
-Student ID
-Student name
-Course
-Marks
-Constructor
-Getters and setters
-toString() method
-StudentManager.java
+Student ID<br>
+Student name<br>
+Course<br>
+Marks<br>
+Constructor<br>
+Getters and setters<br>
+toString() method<br>
+StudentManager.java<br>
 
 Contains the main file-handling operations:
 
-Add student
-View students
-Search student
-Update student
-Delete student
-students.txt
+Add student<br>
+View students<br>
+Search student<br>
+Update student<br>
+Delete student<br>
+students.txt<br>
 
 Stores student records permanently.
 
@@ -88,6 +85,7 @@ Example:
 101,Mohammad Talib,CSE,85.0
 102,Rahul Kumar,IT,78.0
 103,Aman Singh,CSE,91.0
+
 🔄 CRUD Operations
 
 The project implements:
