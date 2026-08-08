@@ -2,7 +2,7 @@
 
 A console-based Student Management System built using Core Java and File Handling. The application allows users to add, view, search, update, and delete student records. All student data is stored in a text file instead of a database.
 
-📌 <h1>Project Overview</h1>
+📌 Project Overview
 
 This project demonstrates how Java File Handling can be used to create a simple record management system.
 
@@ -21,7 +21,7 @@ The application provides a menu-driven interface where users can perform CRUD op
                      |
                      ↓
                 students.txt
-✨ <h1> Features</h1> 
+✨ Features
 ➕ Add Student<br>
 📋 View All Students<br>
 🔍 Search Student by ID<br>
@@ -33,7 +33,7 @@ The application provides a menu-driven interface where users can perform CRUD op
 🖥️ Menu-driven console interface<br>
 🔄 Complete CRUD operations<br>
 
-🛠️<h1>Technologies Used</h1>
+🛠️ Technologies Used
 Java
 Core Java<br>
 File Handling<br>
@@ -43,7 +43,7 @@ Java I/O<br>
 Scanner
 
 
-📂<h1> Project Structure</h1>
+📂 Project Structure
 Student-Management-System/
 │
 ├── src/
