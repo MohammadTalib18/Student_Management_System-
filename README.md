@@ -181,18 +181,20 @@ String manipulation<br>
 try-with-resources<br>
 
 Working with Git and GitHub
+
 🚀 Future Improvements
 
 The project can be further improved by adding:
 
-GUI using Java Swing
-MySQL database integration
-Login and authentication
-Student attendance management
-Grade calculation
-Sorting and filtering
-Export records to CSV/PDF
-Spring Boot REST API
+GUI using Java Swing<br>
+MySQL database integration<br>
+Login and authentication<br>
+Student attendance management<br>
+Grade calculation<br>
+Sorting and filtering<br>
+Export records to CSV/PDF<br>
+Spring Boot REST API<br>
+
 👨‍💻 Author
 
 Mohammad Talib
