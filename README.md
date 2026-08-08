@@ -1,6 +1,6 @@
 🎓 Student Management System
 
-A console-based Student Management System built using Core Java and File Handling. The application allows users to add, view, search, update, and delete student records. All student data is stored in a text file instead of a database.<br>
+A console-based Student Management System built using Core Java and File Handling. The application allows users to add, view, search, update, and delete student records. All student data is stored in a text file instead of a database.
 
 📌 <h1>Project Overview</h1>
 
