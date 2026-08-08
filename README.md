@@ -21,7 +21,7 @@ The application provides a menu-driven interface where users can perform CRUD op
                      |
                      ↓
                 students.txt
-✨ Features
+✨ Features <br>
 ➕ Add Student<br>
 📋 View All Students<br>
 🔍 Search Student by ID<br>
@@ -33,17 +33,16 @@ The application provides a menu-driven interface where users can perform CRUD op
 🖥️ Menu-driven console interface<br>
 🔄 Complete CRUD operations<br>
 
-🛠️ Technologies Used
-Java
+🛠️ Technologies Used Java<br>
 Core Java<br>
 File Handling<br>
 OOP<br>
 Exception Handling<br>
 Java I/O<br>
-Scanner
+Scanner<br>
 
 
-📂 Project Structure
+📂 Project Structure<br>
 Student-Management-System/
 │
 ├── src/
