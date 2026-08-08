@@ -1,4 +1,4 @@
-<title>Student Management System</title>
+Student Management System
 
 A console-based Student Management System built using Core Java and File Handling. The application allows users to add, view, search, update, and delete student records. All student data is stored in a text file instead of a database.<br>
 
@@ -56,62 +56,77 @@ Student-Management-System/
 └── README.md
 
 
-Represents a student object.
+📄 Project Files
+Main.java
 
-It contains:
+Contains the main method and menu-driven interface.
+
+It takes input from the user and performs the selected operation.
+
+Student.java
+
+Contains the student model/class.
+
+It includes:
 
 Student ID<br>
-Student name<br>
+Student Name<br>
 Course<br>
 Marks<br>
 Constructor<br>
-Getters and setters<br>
+Getter and Setter methods<br>
 toString() method<br>
 StudentManager.java<br>
 
-Contains the main file-handling operations:
+Handles all major student operations:
 
-Add student<br>
-View students<br>
-Search student<br>
-Update student<br>
-Delete student<br>
-students.txt<br>
+Add<br>
+View<br>
+Search<br>
+Update<br>
+Delete<br>
 
-Stores student records permanently.
+It also handles reading and writing student records using Java File Handling.
+
+students.txt
+
+Stores student records.
 
 Example:
 
-101,Mohammad Talib,CSE,85.0
-102,Rahul Kumar,IT,78.0
-103,Aman Singh,CSE,91.0
+101,Mohammad Talib,CSE,85.0<br>
+102,Rahul Kumar,IT,78.0<br>
+103,Aman Singh,CSE,91.0<br>
 
 🔄 CRUD Operations
 
 The project implements:
 
-Operation	Description
-Create	Add a new student
-Read	View and search student records
-Update	Modify existing student information
-Delete	Remove a student record
+Operation	Description<br>
+Create	Add a new student<br>
+Read	View and search student records<br>
+Update	Modify existing student information<br>
+Delete	Remove a student record<br>
+
+
 📚 File Handling Concepts Used
 
 This project covers several important Java File Handling concepts:
 
-File
-FileReader
-FileWriter
-BufferedReader
-BufferedWriter
-IOException
-createNewFile()
-read()
-readLine()
-write()
-append
-delete()
-try-with-resources
+File<br>
+FileReader<br>
+FileWriter<br>
+BufferedReader<br>
+BufferedWriter<br>
+IOException<br>
+createNewFile()<br>
+read()<br>
+readLine()<br>
+write()<br>
+append<br>
+delete()<br>
+try-with-resources<br>
+
 ▶️ How to Run
 1. Clone the Repository
 git clone https://github.com/your-username/Student-Management-System.git
@@ -119,69 +134,51 @@ git clone https://github.com/your-username/Student-Management-System.git
 
 Open the project in:
 
-IntelliJ IDEA
-Eclipse
-NetBeans
-VS Code
+IntelliJ IDEA<br>
+Eclipse<br>
+NetBeans<br>
+VS Code<br>
 3. Compile the Java Files
-javac src/*.java
+javac src/*.java<br>
 4. Run the Application
-java -cp src Main
+java -cp src Main<br>
+
 💻 Example Run
 ===== STUDENT MANAGEMENT SYSTEM =====
 
-1. Add Student
-2. View Students
-3. Search Student
-4. Update Student
-5. Delete Student
-6. Exit
+1. Add Student<br>
+2. View Students<br>
+3. Search Student<br>
+4. Update Student<br>
+5. Delete Student<br>
+6. Exit<br>
 
-Enter choice: 1
+Enter choice: 1<br>
 
-Enter ID: 101
-Enter Name: Mohammad Talib
-Enter Course: CSE
-Enter Marks: 85
+Enter ID: 101<br>
+Enter Name: Mohammad Talib<br>
+Enter Course: CSE<br>
+Enter Marks: 85<br>
 
 Student added successfully.
 
 After adding the student, the students.txt file contains:
 
 101,Mohammad Talib,CSE,85.0
-🔍 Search Example
-Enter Student ID: 101
-
-Student Found
-ID: 101
-Name: Mohammad Talib
-Course: CSE
-Marks: 85.0
-📝 Update Example
-Enter Student ID: 101
-Enter New Name: Mohammad Talib
-Enter New Course: CSE
-Enter New Marks: 90
-
-Student updated successfully.
-🗑️ Delete Example
-Enter Student ID: 101
-
-Student deleted successfully.
-🎯 Learning Objectives
 
 Through this project, I learned and practiced:
 
-Java File Handling
-Reading and writing files
-Buffered streams
-File-based CRUD operations
-Object-Oriented Programming
-Exception Handling
-Constructors
-Getter and Setter methods
-String manipulation
-try-with-resources
+Java File Handling<br>
+Reading and writing files<br>
+Buffered streams<br>
+File-based CRUD operations<br>
+Object-Oriented Programming<br>
+Exception Handling<br>
+Constructors<br>
+Getter and Setter methods<br>
+String manipulation<br>
+try-with-resources<br>
+
 Working with Git and GitHub
 🚀 Future Improvements
 
